@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>April Fools!!</title>
+	<style>
+		body {
+			background-color: #215D63;
+		}
+
+		h1 {
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			text-align: center;
+			font-size: 4em;
+			color: white;
+			text-shadow: 2px 2px 5px black;
+		}
+
+		h1:nth-child(3) {
+			position: relative;
+			top: -70px;
+		}
+
+		#main-text {
+			display: inline-block;
+			animation: rotate 0.5s ease-in-out infinite alternate;
+		}
+
+		@keyframes rotate {
+			0% {
+				transform: rotateZ(0deg);
+			}
+			100% {
+				transform: rotateZ(20deg);
+			}
+		}
+
+		#subtitle {
+			font-size: 0.4em;
+			color: #fff;
+			font-weight: normal;
+			margin-top: 20px;
+			margin-right: 10px;
+		}
+
+		#gif-container {
+		    position: relative;
+		    margin: 20px auto;
+		    margin-top: -60px;
+		    width: 80vw;
+		    max-width: 600px;
+		}
+
+		#text-container {
+		  text-align: center;
+		  margin-top: 20px;
+		  font-size: 2em;
+		  color: white;
+		  text-shadow: 2px 2px 5px black;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>
+		<span>uh oh! you just got friccin </span><span id="main-text">SUDO'OED!!</span>
+	</h1>
+	<h1>
+		<span>send this to a friend to TOTALLY sudo them!</span>
+	</h1>
+	<h1>
+		<span id="subtitle">happy (early) april fools</span>
+	</h1>
+	<div id="gif-container">
+	  <img src="https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif" alt="Rick Astley GIF">
+	</div>
+	<div id="text-container">
+	  <p>Here is some text below the GIF!</p>
+	</div>
+
+</style>
+</body>
+</html>
